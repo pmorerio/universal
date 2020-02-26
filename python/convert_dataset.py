@@ -35,7 +35,7 @@ with open(list_text_file) as f:
         path_test_image = os.path.join(base_path,line.split()[0])
         #print(path_test_image)
         
-        # new filename adding _perturbed.jpg
+        # new filename (different parent folder)
         path_test_image_perturbed = os.path.join(target_path,line.split()[0])
         #print(path_test_image_perturbed)
 
